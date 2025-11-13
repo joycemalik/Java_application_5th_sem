@@ -20,12 +20,12 @@ public class RentalClient {
     // ============================================================
     
     // For LOCAL development:
-    private static final String SERVER_HOST = "localhost";
-    private static final int SERVER_PORT = 5000;
+    // private static final String SERVER_HOST = "localhost";
+    // private static final int SERVER_PORT = 5000;
     
-    // For RAILWAY deployment, uncomment and update these:
-    // private static final String SERVER_HOST = "your-service-name.up.railway.app";
-    // private static final int SERVER_PORT = 443; // or the port Railway assigns
+    // For RAILWAY deployment:
+    private static final String SERVER_HOST = "java-group1-asgn.up.railway.app";
+    private static final int SERVER_PORT = 443;
     
     // ============================================================
 
