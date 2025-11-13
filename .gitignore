@@ -1,0 +1,67 @@
+# .gitignore for Java Rental System
+
+# Compiled class files
+*.class
+*.jar
+*.war
+*.ear
+
+# Build directories
+bin/
+target/
+build/
+dist/
+out/
+
+# IDE files
+.idea/
+.vscode/
+*.iml
+*.ipr
+*.iws
+.classpath
+.project
+.settings/
+
+# OS files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+desktop.ini
+
+# Environment files
+.env
+.env.local
+.env.*.local
+*.env
+
+# Logs
+*.log
+logs/
+
+# Maven
+.mvn/
+mvn.cmd
+mvnw
+mvnw.cmd
+
+# Local run scripts
+compile.bat
+run_server.bat
+run_client.bat
+
+# MySQL local database (not needed with Supabase)
+database_setup.sql
+
+# Temporary files
+*.tmp
+*.bak
+*.swp
+*~
+
+# Railway local files
+.railway/
